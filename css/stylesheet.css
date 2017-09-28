@@ -1,1 +1,12 @@
+.menu {
+  counter-reset: itemCounter;
+}
+
+.menu .menu_item {
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 3em 0;
+  padding-left: 0.5em;
+  color: #32343c;
+}
 
