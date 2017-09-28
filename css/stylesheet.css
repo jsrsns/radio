@@ -10,3 +10,18 @@
   color: #32343c;
 }
 
+.menu .menu_item:first-child {
+  --menu-item-color:#9437ff;
+}
+
+.menu .menu_item:nth-child(2) {
+  --menu-item-color:#9437ff;
+}
+
+.menu .menu_item:nth-child(3) {
+  --menu-item-color:#9437ff;
+}
+
+.menu .menu_item:nth-child(4) {
+  --menu-item-color:#9437ff;
+}
