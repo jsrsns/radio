@@ -25,7 +25,7 @@
 			this.initEvents();
 		}
 		initEvents() {
-			const duration = 150;
+			const duration = 100;
 
 			this.mouseenterFn = () => this.mouseTimeout = setTimeout(() => {
 				this.isActive = true;
@@ -35,7 +35,7 @@
 					delay: (t,i) => i*10,
 					translateY: [
 						{value: (t,i) => i%2===0?10:-10, duration: duration, easing: 'easeInSine'},
-						{value: (t,i) => i%2===0?[-10,0]:[10,0], duration: duration+350, easing: 'easeOutElastic', elasticity: 600}
+						{value: (t,i) => i%2===0?[-10,0]:[10,0], duration: duration+350, easing: 'easeOutElastic', elasticity: 300}
 					],
 					opacity: [
 						{value: 0, duration: duration, easing: 'linear'},
