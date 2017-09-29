@@ -9,13 +9,13 @@
  * http://www.codrops.com
  */
 {
-	const items = Array.from(document.querySelectorAll('.menu > .menu__item'));
+	const items = Array.from(document.querySelectorAll('.menu > .menu_item'));
 
 	class Item {
 		constructor(el) {
 			this.DOM = {};
 			this.DOM.el = el;
-			this.DOM.name = el.querySelector('.menu__item-name');
+			this.DOM.name = el.querySelector('.menu_item-name');
 			this.colors = {
 				active: window.getComputedStyle(this.DOM.el).getPropertyValue('--menu-item-color')
 			};
