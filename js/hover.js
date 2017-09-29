@@ -15,7 +15,7 @@
 		constructor(el) {
 			this.DOM = {};
 			this.DOM.el = el;
-			this.DOM.name = el.querySelector('.nav__item-label');
+			this.DOM.name = el.querySelector('.nav_item-label');
 			this.colors = {
 				active: window.getComputedStyle(this.DOM.el).getPropertyValue('--menu-item-color')
 			};
