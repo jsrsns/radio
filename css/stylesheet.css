@@ -27,7 +27,7 @@ a:focus {
 /* Fade effect */
 body {
   opacity: 0;
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
 body.render {
   opacity: 1;
