@@ -75,13 +75,13 @@ body {
   text-transform: lowercase;
 }
 #nav .nav_item:first-child {
-  --menu-item-color:#9437ff;
+  --menu-item-color:#fb0e1f;
 }
 #nav .nav_item:nth-child(2) {
-  --menu-item-color:#ff84fd;
+  --menu-item-color:#7a4894;
 }
 #nav .nav_item:nth-child(3) {
-  --menu-item-color:#6cccff;
+  --menu-item-color:#3281f1;
 }
 #nav .nav_item-label:after {
   background: var(--menu-item-color);
