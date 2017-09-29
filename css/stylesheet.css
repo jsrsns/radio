@@ -79,6 +79,7 @@ body.render {
   font-size: 1.25em;
 }
 #nav .nav_item {
+  font-family: 'Quicksand', sans-serif;
   font-size: 1.25em;
   font-weight: 500;
   padding-left: 0.5em;
