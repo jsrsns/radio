@@ -5,14 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title></title>
+  <link rel="icon" href="../img/favicon.png">
   <!--link to main stylesheet-->
   <link rel="stylesheet" type="text/css" href="/radio/css/stylesheet.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Quicksand:500" rel="stylesheet">
 </head>
 <body>
+  <!-- audio stream -->
+  <audio id="stream" src=" " onerror="setOffline()"></audio>
+
   <div class="container">
     <!-- header -->
-    <div id="header">
+    <div class="header">
       <div class="wrapper">
         <div class="table">
           <div class="table-cell table-left">
@@ -20,7 +24,7 @@
               <img class="" alt="">
           </div>
           <div class="table-cell table right">
-            <nav id="nav">
+            <nav class="nav">
               <a class="nav_item" href="#">
                 <span class="nav_item-label">Listen</span>
               </a>

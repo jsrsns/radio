@@ -9,7 +9,7 @@
  * http://www.codrops.com
  */
 {
-	const items = Array.from(document.querySelectorAll('#nav > .nav_item'));
+	const items = Array.from(document.querySelectorAll('.nav > .nav_item'));
 
 	class Item {
 		constructor(el) {

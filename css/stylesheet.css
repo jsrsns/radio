@@ -53,7 +53,7 @@ body.render {
 .table-left { width: 66.666%; }
 
 /* Header, title and navbar */
-#header {
+.header {
   position: fixed;
   top: 0;
   z-index: 10;
@@ -61,7 +61,7 @@ body.render {
   height: auto;
   padding: 30px 0 0;
 }
-#nav {
+.nav {
   display: block;
   text-align: right;
 }
@@ -78,14 +78,14 @@ body.render {
 .nav_item-label {
   font-size: 1.25em;
 }
-#nav .nav_item {
+.nav .nav_item {
   font-family: 'Quicksand', sans-serif;
   font-size: 1.25em;
   font-weight: 500;
   padding-left: 0.5em;
   color: #32343c;
 }
-#nav .nav_item-label {
+.nav .nav_item-label {
   font-size: 1.5em;
   font-weight: 500;
   display: flex;
@@ -94,25 +94,25 @@ body.render {
   white-space: pre;
   text-transform: lowercase;
 }
-#nav .nav_item:first-child {
+.nav .nav_item:first-child {
   --menu-item-color:#fb0e1f;
 }
-#nav .nav_item:nth-child(2) {
+.nav .nav_item:nth-child(2) {
   --menu-item-color:#7a4894;
 }
-#nav .nav_item:nth-child(3) {
+.nav .nav_item:nth-child(3) {
   --menu-item-color:#3281f1;
 }
-#nav .nav_item-label:after {
+.nav .nav_item-label:after {
   background: var(--menu-item-color);
   transform: scale3d(0,1,1);
   transform-origin: 0% 50%;
   transition: transform 0.5s;
 }
-#nav .nav_item:hover .nav_item-label:after,
-#nav .nav_item:focus .nav_item:after {
+.nav .nav_item:hover .nav_item-label:after,
+.nav .nav_item:focus .nav_item:after {
   transform: scale3d(1,1,1);
 }
-#nav .nav_item-label span {
+.nav .nav_item-label span {
   display: inline-block;
 }
