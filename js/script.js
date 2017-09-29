@@ -1,3 +1,3 @@
 {
-setTimeout(() => document.body.classList.add('render'), 500);
+setTimeout(() => document.body.classList.add('render'), 60);
 };
