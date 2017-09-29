@@ -50,3 +50,40 @@
 .menu .menu_item:nth-child(4) {
   --menu-item-color:#9437ff;
 }
+
+.menu .menu_item-name {
+  font-size: 1.5em;
+  font-weight: 500;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em 0 0 0;
+  white-space: pre;
+  text-transform: lowercase;
+}
+
+.menu .menu_item-name::before,
+.menu .menu_item-name::after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  widht: 2.5em;
+  height: 4px;
+  background: #ddd;
+}
+
+.menu .menu_item-name::after {
+  background: var(--menu-item-color);
+  transform: scale3d(0,1,1);
+  transform-origin: 0% 50%;
+  transition: transform 0.5s;
+}
+
+.menu .menu_item:hover .meu_item-name::after,
+.menu .menu_item:focus .menu_item::after {
+  transform: scale3d(1,1,1,);
+}
+
+.menu .menu_item-name span {
+  display: inline-block;
+}
