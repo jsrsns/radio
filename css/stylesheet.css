@@ -122,8 +122,8 @@ body.render {
 
 /* Stream */
 .streamStateLabel {
-  width: 100%
-  height: 25vh
+  width: 100%;
+  height: 25vh;
   background-color: #fb0e1f;
   text-align: center;
 }
