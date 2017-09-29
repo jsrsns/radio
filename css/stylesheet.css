@@ -40,15 +40,15 @@
 }
 
 .menu .menu_item:nth-child(2) {
-  --menu-item-color:#9437ff;
+  --menu-item-color:#ff84fd;
 }
 
 .menu .menu_item:nth-child(3) {
-  --menu-item-color:#9437ff;
+  --menu-item-color:#6cccff;
 }
 
 .menu .menu_item:nth-child(4) {
-  --menu-item-color:#9437ff;
+  --menu-item-color:#3dd2c1;
 }
 
 .menu .menu_item-name {
