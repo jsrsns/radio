@@ -1,5 +1,29 @@
 .menu {
   counter-reset: itemCounter;
+  position: relative;
+  z-index: 10;
+}
+
+.menu_item {
+  line-height: 1;
+  position: relative;
+  display: block;
+  margin: 1em 0;
+  outline: none;
+}
+
+.menu_item-name,
+.menu_item-label {
+  position: relative;
+  display: inline-block;
+}
+
+.menu_item-name {
+  font-size: 1.25em;
+}
+
+.menu_item-label {
+  margin: 0 0 0 0.5em;
 }
 
 .menu .menu_item {
