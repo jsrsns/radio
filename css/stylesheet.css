@@ -29,7 +29,7 @@ a:focus {
 .wrapper {
   margin: 0 auto;
   max-width: 1080px;
-  padding: 0 50px;
+  padding: 0 30px;
 }
 .table {
   display: table;
@@ -54,7 +54,7 @@ a:focus {
 }
 #nav {
   display: block;
-  text-align: left;
+  text-align: right;
 }
 .nav_item {
   line-height: 1;
