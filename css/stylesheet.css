@@ -12,6 +12,17 @@ body {
 ::webkit-scrollbar { display: none; }
 
 /* Titles and text styling */
+a {
+  text-decoration: none;
+  color: #5d93d8;
+  outline: none;
+}
+a:hover,
+a:focus {
+  color: #423c2b;
+  color: var(--color-link-hover);
+  outline: none;
+}
 
 /* Design elements */
 .container { }
