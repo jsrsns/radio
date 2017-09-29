@@ -32,10 +32,10 @@
 				anime.remove(this.DOM.nameLetters);
 				anime({
 					targets: this.DOM.nameLetters,
-					delay: (t,i) => i*20,
+					delay: (t,i) => i*10,
 					translateY: [
 						{value: (t,i) => i%2===0?10:-10, duration: duration, easing: 'easeInSine'},
-						{value: (t,i) => i%2===0?[-10,0]:[10,0], duration: duration+700, easing: 'easeOutElastic', elasticity: 600}
+						{value: (t,i) => i%2===0?[-10,0]:[10,0], duration: duration+350, easing: 'easeOutElastic', elasticity: 600}
 					],
 					opacity: [
 						{value: 0, duration: duration, easing: 'linear'},
@@ -44,7 +44,7 @@
 					color: {
 						value: this.colors.active,
 						duration: 1,
-						delay:(t,i) => i*20+duration,
+						delay:(t,i) => i*10+duration,
 						easing: 'linear'
 					}
 				});
@@ -61,7 +61,7 @@
 					delay: (t,i,l) => (l-i-1)*20,
 					translateY: [
 						{value: (t,i) => i%2===0?-10:10, duration: duration, easing: 'easeInSine'},
-						{value: (t,i) => i%2===0?[10,0]:[-10,0], duration: duration+700, easing: 'easeOutElastic', elasticity: 600}
+						{value: (t,i) => i%2===0?[10,0]:[-10,0], duration: duration+350, easing: 'easeOutElastic', elasticity: 300}
 					],
 					opacity: [
 						{value: 0, duration: duration, easing: 'linear'},
@@ -70,7 +70,7 @@
 					color: {
 						value: this.colors.initial,
 						duration: 1,
-						delay:(t,i,l) => (l-i-1)*20+duration,
+						delay:(t,i,l) => (l-i-1)*10+duration,
 						easing: 'linear'
 					}
 				});
