@@ -9,6 +9,8 @@ var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
 var loading = audioPlayer.querySelector('.loading');
 var player = audioPlayer.querySelector('audio');
+var volumeBtn = audioPlayer.querySelector('.volume-btn');
+var speaker = audioPlayer.querySelector('#speaker');
 
 playPauseBtn.addEventListener('click',togglePlay);
 player.addEventListener('canplay',makePlay);
