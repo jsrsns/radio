@@ -7,7 +7,7 @@ var player = audioPlayer.querySelector('audio');
 var volumeBtn = audioPlayer.querySelector('.volume-btn');
 var speaker = audioPlayer.querySelector('#speaker');
 
-var stream = audioPlayer.querySelector('.stream')
+var stream = audioPlayer.querySelector('#stream')
 
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
