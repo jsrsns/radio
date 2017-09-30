@@ -14,10 +14,10 @@ playPauseBtn.addEventListener('click',togglePlay);
 
 function togglePlay() {
   if(player.paused) {
-    playPause.attributes.d.value ="M0 0h6v24H0zM12 0h6v24h-6z";
+    playPause.attributes.d.value = "M0 0h6v24H0zM12 0h6v24h-6z";
     player.play();
   } else {
-    playPause.attributes.d.value ="M18 12L0 24V0"
+    playPause.attributes.d.value = "M18 12L0 24V0";
     player.pause();
   }
 }
