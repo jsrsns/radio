@@ -159,4 +159,10 @@ body.render {
   display: none;
   cursor: pointer;
 }
+.volume {
+  position: relative;
+}
+.volume-btn {
+  cursor: pointer;
+}
 .offline { content: 'OFFLINE'; }
