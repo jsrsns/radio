@@ -1,6 +1,7 @@
 function setOffline()
 {
   $('#streamStateLabel > span').text("OFFLINE");
+  $('#streamStateLabel > p').text("No stream right now. Check back later.");
   $('#streamPlayer').css('background-color','#fb0e1f');
   $('#streamPlayerControls').css('display','none');
 }
