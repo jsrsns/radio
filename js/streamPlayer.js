@@ -1,5 +1,6 @@
 var audioPlayer = document.querySelector('#streamPlayer');
-var streamStatus = audioPlayer.querySelector('#streamStateLabel > span');
+var streamLabel = audioPlayer.querySelector('#streamStateLabel > span');
+var streamSatus = audioPlayer.querySelector('#streamStateLabel > p');
 var streamControls = audioPlayer.querySelector('#streamPlayerControls');
 var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
@@ -10,16 +11,17 @@ var speaker = audioPlayer.querySelector('#speaker');
 
 var stream = audioPlayer.querySelector('#stream')
 
+stream.addEventListener('error',setOffline);
+
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
 player.addEventListener('canplay',makePlay);
 
-stream.addEventListener('error',setOffline);
-
 function setOffline() {
   streamControls.style.display = 'none';
   audioPlayer.style.backgroundColor = '#fb0e1f';
-  streamStatus.textContent = "OFFLINE";
+  streamLabel.textContent = "OFFLINE";
+  streamStatus.textContent = "No stream right now. Check back later.";
 }
 
 function toggleVolume() {
