@@ -1,4 +1,4 @@
 function setOffline()
 {
-  $("#streamStateLabel > span").text("OFFLINE");
+  $('#streamStateLabel > span').text("OFFLINE");
 }
