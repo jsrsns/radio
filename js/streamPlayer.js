@@ -1,7 +1,7 @@
 function setOffline()
 {
   $('#streamStateLabel > span').text("OFFLINE");
-  $('#streamStateLabel > p').css('display',block);
+  $('#streamStateLabel > p').css('display','block');
   $('#streamPlayer').css('background-color','#fb0e1f');
   $('#streamPlayerControls').css('display','none');
 }
