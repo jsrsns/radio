@@ -133,7 +133,7 @@ body.render {
 /* Stream */
 #streamPlayer {
   background-color: #fb0e1f;
-  padding: 154px 0 100px;
+  padding: 254px 0 100px;
   display: block;
 }
 #streamStateLabel {
@@ -142,3 +142,4 @@ body.render {
   font-weight: 500;
   line-height: 1.1;
 }
+.offline { content: 'OFFLINE'; }
