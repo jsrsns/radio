@@ -9,6 +9,9 @@ body {
   font-size: 24px;
   line-height: 28px;
 }
+svg, img {
+  display: block;
+}
 ::webkit-scrollbar { display: none; }
 
 /* Titles and text styling */
@@ -142,5 +145,12 @@ body.render {
   font-weight: 500;
   font-family: 'Quicksand', sans-serif;
   line-height: 1.1;
+}
+#streamPlayerControls {
+
+}
+.play-pause-btn {
+  display: none;
+  cursor: pointer;
 }
 .offline { content: 'OFFLINE'; }
