@@ -19,7 +19,7 @@ stream.addEventListener('error',setOffline);
 function setOffline() {
   streamControls.style.display = 'none';
   audioPlayer.style.backgroundColor = '#fb0e1f';
-  streamStatus.text("OFFLINE");
+  streamStatus.textContent = "OFFLINE";
 }
 
 function toggleVolume() {
