@@ -170,6 +170,14 @@ body.render {
   background-repeat: no-repeat;
   animation: spin 0.5s linear infinite;
 }
+@keyframes spin {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(1turn);
+  }
+}
 .volume {
   position: relative;
 }
