@@ -146,6 +146,9 @@ body.render {
   font-family: 'Quicksand', sans-serif;
   line-height: 1.1;
 }
+#streamStateLabel > p {
+  display: none;
+}
 #streamPlayerControls {
   width: 200px;
   display: flex;
