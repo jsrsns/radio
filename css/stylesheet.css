@@ -136,3 +136,9 @@ body.render {
   padding: 154px 0 100px;
   display: block;
 }
+#streamStateLabel {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
