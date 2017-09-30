@@ -8,6 +8,8 @@ body {
   font-family: 'Arial', sans-serif;
   font-size: 24px;
   line-height: 28px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 svg, img {
   display: block;
@@ -133,7 +135,7 @@ body.render {
 /* Content */
 .content { color: #000 }
 
-/* Stream */
+/* Stream Player */
 #streamPlayer {
   background-color: #5cb435;
   padding: 254px 0 100px;
@@ -181,3 +183,17 @@ body.render {
   cursor: pointer;
 }
 .offline { content: 'OFFLINE'; }
+
+/* About */
+
+#about {
+
+}
+
+/* Footer */
+.footer {
+  position: fixed;
+  z-index: 2;
+  bottom: 0;
+  width: 100%;
+}
