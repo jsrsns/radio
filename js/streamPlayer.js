@@ -11,6 +11,7 @@ var loading = audioPlayer.querySelector('.loading');
 var player = audioPlayer.querySelector('audio');
 
 playPauseBtn.addEventListener('click',togglePlay);
+player.addEventListener('canplay',makePlay);
 
 function togglePlay() {
   if(player.paused) {
@@ -23,6 +24,6 @@ function togglePlay() {
 }
 
 function makePlay() {
-  playpauseBtn.style.display = 'block';
+  playPauseBtn.style.display = 'block';
   loading.style.display = 'none';
 }
