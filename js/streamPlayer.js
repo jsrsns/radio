@@ -9,7 +9,7 @@ var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
 var loading = audioPlayer.querySelector('.loading');
 
-playpauseBtn.addEventListener('click',togglePlay);
+playPauseBtn.addEventListener('click',togglePlay);
 
 function togglePlay() {
   if(player.paused) {
