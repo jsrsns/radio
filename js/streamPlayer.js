@@ -1,6 +1,6 @@
 var audioPlayer = document.querySelector('#streamPlayer');
 var streamLabel = audioPlayer.querySelector('#streamStateLabel > span');
-var streamSatus = audioPlayer.querySelector('#streamStateLabel > p');
+var streamStatus = audioPlayer.querySelector('#streamStateLabel > p');
 var streamControls = audioPlayer.querySelector('#streamPlayerControls');
 var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
@@ -8,11 +8,9 @@ var loading = audioPlayer.querySelector('.loading');
 var player = audioPlayer.querySelector('audio');
 var volumeBtn = audioPlayer.querySelector('.volume-btn');
 var speaker = audioPlayer.querySelector('#speaker');
-
 var stream = audioPlayer.querySelector('#stream')
 
 stream.addEventListener('error',setOffline);
-
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
 player.addEventListener('canplay',makePlay);
