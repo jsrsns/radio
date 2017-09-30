@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 28px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,7 +21,10 @@ h1 {
   line-height: 28px;
   font-weight: 500;
 }
-p { }
+p {
+  font-size: 24px;
+  line-height: 28px;
+}
 a {
   text-decoration: none;
   color: #5d93d8;
@@ -143,10 +146,6 @@ body.render { opacity: 1; }
   font-weight: 500;
   line-height: 1.1;
 }
-#streamStateLabel p {
-  font-size: 24px;
-  line-height: 28px;
-}
 #streamPlayerControls {
   width: 200px;
   display: flex;
@@ -181,7 +180,10 @@ body.render { opacity: 1; }
 
 /* About */
 #about { }
-#about p { }
+#about p {
+  font-size: 18px;
+  font-size: 22px;
+}
 .info { }
 .social { padding: 15px 40px 60 px; }
 .social li {
