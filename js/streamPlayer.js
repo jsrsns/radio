@@ -8,6 +8,7 @@ var audioPlayer = document.querySelector('#streamPlayer');
 var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
 var loading = audioPlayer.querySelector('.loading');
+var player = audioPlayer.querySelector('audio');
 
 playPauseBtn.addEventListener('click',togglePlay);
 
