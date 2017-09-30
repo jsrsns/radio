@@ -1,11 +1,5 @@
-function setOffline()
-{
-  $('#streamStateLabel > span').text("OFFLINE");
-  $('#streamStateLabel > p').css('display','block');
-  $('#streamPlayer').css('background-color','#fb0e1f');
-  $('#streamPlayerControls').css('display','none');
-}
 var audioPlayer = document.querySelector('#streamPlayer');
+var streamControls = audioPlayer.querySelector('#streamPlayerControls');
 var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
 var loading = audioPlayer.querySelector('.loading');
@@ -13,9 +7,18 @@ var player = audioPlayer.querySelector('audio');
 var volumeBtn = audioPlayer.querySelector('.volume-btn');
 var speaker = audioPlayer.querySelector('#speaker');
 
+var stream = audioPlayer.querySelector('.stream')
+
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
 player.addEventListener('canplay',makePlay);
+
+stream.addEventListener('error',setOffline);
+
+function setOffline() {
+  streamControls.style.display = 'none';
+  audioPlayer.style.backgroundColor = '#fb0e1f';
+}
 
 function toggleVolume() {
   if(player.muted === false) {
