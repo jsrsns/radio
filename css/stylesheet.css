@@ -147,6 +147,12 @@ body.render {
   line-height: 1.1;
 }
 #streamPlayerControls {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding-left: 24px;
+  padding-right: 24px;
 
 }
 .play-pause-btn {
