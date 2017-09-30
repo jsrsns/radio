@@ -168,7 +168,7 @@ body.render {
   background-image: url(/radio/img/spinner.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  animation: spin 0.5s linear infinite;
+  animation: spin 0.7s linear infinite;
 }
 @keyframes spin {
   from {
