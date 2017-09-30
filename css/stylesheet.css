@@ -21,7 +21,7 @@ h1 {
   line-height: 28px;
   font-weight: 500;
 }
-p { padding: 15px; }
+p { }
 a {
   text-decoration: none;
   color: #5d93d8;
@@ -191,8 +191,6 @@ body.render { opacity: 1; }
 
 /* Footer */
 .footer {
-  position: fixed;
-  z-index: 2;
   bottom: 0;
   width: 100%;
 }
