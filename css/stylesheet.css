@@ -150,7 +150,7 @@ body.render {
 
 }
 .play-pause-btn {
-  /*display: none;*/
+  display: none;
   cursor: pointer;
 }
 .offline { content: 'OFFLINE'; }
