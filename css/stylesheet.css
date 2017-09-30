@@ -159,6 +159,14 @@ body.render {
   display: none;
   cursor: pointer;
 }
+.spinner {
+  width: 83px;
+  height: 83px;
+  background-image: url(/radio/img/spinner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: spin 0.5s linear infinite;
+}
 .volume {
   position: relative;
 }
