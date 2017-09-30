@@ -1,4 +1,5 @@
 var audioPlayer = document.querySelector('#streamPlayer');
+var streamStatus = audioPlayer.querySelector('#streamStateLabel > span');
 var streamControls = audioPlayer.querySelector('#streamPlayerControls');
 var PlayPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
@@ -18,6 +19,7 @@ stream.addEventListener('error',setOffline);
 function setOffline() {
   streamControls.style.display = 'none';
   audioPlayer.style.backgroundColor = '#fb0e1f';
+  streamStatus.text("OFFLINE");
 }
 
 function toggleVolume() {
