@@ -6,8 +6,8 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 22px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -17,6 +17,11 @@ svg, img {
 ::webkit-scrollbar { display: none; }
 
 /* Titles and text styling */
+h1 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
 p {
   padding: 15px;
 }
@@ -191,8 +196,6 @@ body.render {
 }
 
 #about p {
-  font-size: 18px;
-  line-height: 22px;
   text-align: justify;
 }
 .info { padding: 50px 0 0;}
