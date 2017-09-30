@@ -199,6 +199,16 @@ body.render {
   text-align: justify;
 }
 .info { padding: 50px 0 0;}
+.social { padding: 15px 40px 60 px; }
+.social li {
+  display: inline-block;
+  padding: 2px;
+  list-style: none;
+}
+.social li:before {
+  padding: 0 5px;
+  content: '\2613';
+}
 
 /* Footer */
 .footer {
