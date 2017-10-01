@@ -112,13 +112,13 @@ body.render { opacity: 1; }
   text-transform: lowercase;
 }
 .nav .nav_item:first-child {
-  --menu-item-color:#fb0e1f;
+  --menu-item-color:#c200fb;
 }
 .nav .nav_item:nth-child(2) {
-  --menu-item-color:#7a4894;
+  --menu-item-color:#fe4e00;
 }
 .nav .nav_item:nth-child(3) {
-  --menu-item-color:#3281f1;
+  --menu-item-color:#ff4242;
 }
 .nav .nav_item-label:after {
   background: var(--menu-item-color);
