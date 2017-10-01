@@ -180,12 +180,11 @@ body.render { opacity: 1; }
 
 /* About */
 #about { }
-#about p {
-  font-size: 18px;
-  font-size: 22px;
-}
 .info { }
-.social { padding: 15px 40px 60px; }
+.social {
+  padding: 40px 40px 60px;
+  font-size: 0.8em;
+}
 .social li {
   display: inline-block;
   padding: 2px;
@@ -199,4 +198,5 @@ body.render { opacity: 1; }
 .footer {
   bottom: 0;
   width: 100%;
+  font-size: 0.8em;
 }
