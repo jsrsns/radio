@@ -31,13 +31,12 @@ p {
 }
 a {
   text-decoration: none;
-  color: #3772ff;
+  color: #6d98ff;
   outline: none;
 }
 a:hover,
 a:focus {
   color: #423c2b;
-  color: var(--color-link-hover);
   outline: none;
 }
 
