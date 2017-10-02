@@ -138,6 +138,8 @@ body.render { opacity: 1; }
 /* Content */
 .content { color: #000 }
 
+.post { margin-bottom: 1.5em; }
+
 /* Stream Player */
 #streamPlayer {
   background-color: #5cb435;
