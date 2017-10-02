@@ -3,7 +3,6 @@
   box-sizing: border-box;
   margin: 0;
 }
-
 body {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
@@ -23,8 +22,8 @@ h1 {
   text-transform: lowercase;
 }
 h2 {
-  font-size: 0.8em;
-  font-weight: 500;
+  font-size: 1em;
+  line-height: 1;
 }
 p {
   font-size: 24px;
