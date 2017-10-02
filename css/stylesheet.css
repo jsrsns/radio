@@ -73,7 +73,7 @@ body.render { opacity: 1; }
 .right { text-align: right; }
 .frame {
   margin: 0 auto;
-  padding: 50px 50px 0 50px;
+  padding: 150px 50px 0 50px;
   max-width: 800px;
 }
 
