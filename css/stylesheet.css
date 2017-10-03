@@ -181,7 +181,9 @@ body.render { opacity: 1; }
 .archivePreview {
 
 }
-.load-btn
+.load-btn {
+  cursor: pointer;
+}
 
 /* About */
 #about { }
