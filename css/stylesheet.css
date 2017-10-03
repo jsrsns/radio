@@ -101,8 +101,6 @@ body.render { opacity: 1; }
   display: inline-block;
 }
 .nav .nav_item {
-  font-size: 1.25em;
-  font-weight: 500;
   padding-left: 0.5em;
   color: #32343c;
 }
