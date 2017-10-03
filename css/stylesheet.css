@@ -172,6 +172,16 @@ body.render { opacity: 1; }
 .volume-btn { cursor: pointer; }
 .offline { content: 'OFFLINE'; }
 
+/* Archive Player */
+.archivePlayer {
+  background-color: #3772ff;
+  width: 100%;
+}
+.archivePreview {
+
+}
+.load-btn
+
 /* About */
 #about { }
 .info { }
