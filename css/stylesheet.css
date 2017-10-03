@@ -100,7 +100,6 @@ body.render { opacity: 1; }
   position: relative;
   display: inline-block;
 }
-.nav_item-label { font-size: 1.25em; }
 .nav .nav_item {
   font-size: 1.25em;
   font-weight: 500;
@@ -125,17 +124,7 @@ body.render { opacity: 1; }
 .nav .nav_item:nth-child(3) {
   --menu-item-color:#ff4242;
 }
-/*
-.nav .nav_item-label:after {
-  background: var(--menu-item-color);
-  transform: scale3d(0,1,1);
-  transform-origin: 0% 50%;
-  transition: transform 0.5s;
-}
-.nav .nav_item:hover .nav_item-label:after,
-.nav .nav_item:focus .nav_item:after { transform: scale3d(1,1,1); }
-.nav .nav_item-label span { display: inline-block; }
-*/
+
 /* Content */
 .content { color: #000 }
 
@@ -205,4 +194,5 @@ body.render { opacity: 1; }
   width: 100%;
   font-size: 0.8em;
   padding-bottom: 3em;
+  padding-top: 3em;
 }
