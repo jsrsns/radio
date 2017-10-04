@@ -178,6 +178,13 @@ body.render { opacity: 1; }
   width: 100%;
   height: 120px;
 }
+.archivePlayerControls {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50%;
+  margin-left: 15%;
+}
 .play-btn {
   cursor: pointer;
 }
