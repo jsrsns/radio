@@ -2,7 +2,7 @@ var audioPlayer = document.querySelector('#streamPlayer');
 var streamLabel = audioPlayer.querySelector('#streamStateLabel > span');
 var streamStatus = audioPlayer.querySelector('#streamStateLabel > p');
 var streamControls = audioPlayer.querySelector('#streamPlayerControls');
-var PlayPause = audioPlayer.querySelector('#playPause');
+var playPause = audioPlayer.querySelector('#playPause');
 var playPauseBtn = audioPlayer.querySelector('.play-pause-btn');
 var loading = audioPlayer.querySelector('.loading');
 var player = audioPlayer.querySelector('audio');
@@ -23,7 +23,7 @@ function setOffline() {
 }
 
 function toggleVolume() {
-  if(player.muted === false) {
+  if (player.muted === false) {
     speaker.attributes.d.value = "M253.8 173.6c2.9 2.9 2.9 7.7 0 10.6 -1.5 1.5-3.4 2.2-5.3 2.2 -1.9 0-3.8-0.7-5.3-2.2l-23.6-23.6 -23.6 23.6c-1.5 1.5-3.4 2.2-5.3 2.2 -1.9 0-3.8-0.7-5.3-2.2 -2.9-2.9-2.9-7.7 0-10.6l23.6-23.6 -23.6-23.6c-2.9-2.9-2.9-7.7 0-10.6 2.9-2.9 7.7-2.9 10.6 0l23.6 23.6 23.6-23.6c2.9-2.9 7.7-2.9 10.6 0 2.9 2.9 2.9 7.7 0 10.6L230.2 150 253.8 173.6zM152.6 41.7v216.7c0 5.7-2.8 7.1-6.2 3l-46.4-55.7c-0.5-0.6-1-1.4-1.5-2.2 -0.7 0.2-1.4 0.3-2.2 0.3H45c-4.9 0-8.9-4.7-8.9-10.4v-86.8c0-5.7 4-10.4 8.9-10.4h51.4c0.8 0 1.5 0.1 2.2 0.3 0.5-0.8 1-1.5 1.5-2.1l46.4-55.7C149.8 34.6 152.6 35.9 152.6 41.7z";
     player.muted = true;
   } else {
@@ -33,7 +33,7 @@ function toggleVolume() {
 }
 
 function togglePlay() {
-  if(player.paused) {
+  if (player.paused) {
     playPause.attributes.d.value = "M52.3 46.1c0-5.5 4.5-10 10-10h45.3c5.5 0 10 4.5 10 10v207.8c0 5.5-4.5 10-10 10H62.3c-5.5 0-10-4.5-10-10V46.1zM192.4 36.1c-5.5 0-10 4.5-10 10v207.8c0 5.5 4.5 10 10 10h45.3c5.5 0 10-4.5 10-10V46.1c0-5.5-4.5-10-10-10H192.4z";
     player.play();
   } else {
