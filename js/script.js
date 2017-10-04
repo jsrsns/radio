@@ -9,8 +9,10 @@ setTimeout(() => document.body.classList.add('render'), 60);
 var archivePlayer = document.querySelectorAll('.archivePlayer');
 
 for (var i = 0; i < archivePlayer.length; i++) {
+  
+  var playBtn = archivePlayer[i].querySelector(.'play-btn');
 
-  archivePlayer[i].addEventListener('click', function() {
+  playBtn.addEventListener('click', function() {
     var iframe = document.createElement('iframe');
     iframe.setAttribute("width", "100%");
     iframe.setAttribute("height", "120");
@@ -21,10 +23,3 @@ for (var i = 0; i < archivePlayer.length; i++) {
     this.appendChild(iframe);
   });
 }
-
-/*
-$('.load-btn').click(function(){
-        archive = '<iframe src="'+ $(this).attr('data-id') +'"></iframe>';
-        $(".archivePreview").replaceWith(archive);
-    });
-*/
