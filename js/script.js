@@ -11,7 +11,7 @@ var playBtn = archivePlayer.querySelector('.play-btn');
 
 for (var i = 0; i < archivePlayer.length; i++) {
 
-  playBtn[i].addEventListener('click', function() {
+  archivePlayer[i].addEventListener('click', function() {
     var iframe = document.createElement('iframe');
     iframe.setAttribute( "frameborder", "0");
     iframe.setAttribute("src", "https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=" + this.dataset.embed);
