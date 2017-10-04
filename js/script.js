@@ -10,7 +10,7 @@ var archivePlayer = document.querySelectorAll('.archivePlayer');
 
 for (var i = 0; i < archivePlayer.length; i++) {
   
-  var playBtn = archivePlayer[i].querySelector(.'play-btn');
+  var playBtn = archivePlayer[i].querySelector('.play-btn');
 
   playBtn.addEventListener('click', function() {
     var iframe = document.createElement('iframe');
