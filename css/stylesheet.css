@@ -187,7 +187,7 @@ body.render { opacity: 1; }
 }
 iframe {
   opacity: 0;
-  animation: fade 2s ease forwards;
+  animation: fade 1.5s ease-in;
 }
 @keyframes fade {
   from { opacity: 0; }
