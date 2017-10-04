@@ -182,8 +182,7 @@ body.render { opacity: 1; }
   width: 200px;
   display: flex;
   justify-content: space-between;
-  margin-top: 50%;
-  margin-left: 15%;
+  margin: auto;
 }
 .play-btn {
   cursor: pointer;
