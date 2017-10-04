@@ -9,15 +9,16 @@ setTimeout(() => document.body.classList.add('render'), 60);
 var archivePlayer = document.querySelectorAll('.archivePlayer');
 
 for (var i = 0; i < archivePlayer.length; i++) {
-  
+
   var playBtn = archivePlayer[i].querySelector('.play-btn');
+  var source = archivePlayer[i].dataset.embed;
 
   playBtn.addEventListener('click', function() {
     var iframe = document.createElement('iframe');
     iframe.setAttribute("width", "100%");
     iframe.setAttribute("height", "120");
     iframe.setAttribute("frameborder", "0");
-    iframe.setAttribute("src", "https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=" + this.dataset.embed);
+    iframe.setAttribute("src", "https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=" + source);
 
     this.innerHTML = "";
     this.appendChild(iframe);
