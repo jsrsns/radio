@@ -179,7 +179,7 @@ body.render { opacity: 1; }
   width: 200px;
   display: flex;
   justify-content: space-between;
-  /* margin: auto; */
+  margin: auto;
   padding: 20px 20px;
 }
 .play-btn {
