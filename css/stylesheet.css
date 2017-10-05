@@ -123,13 +123,13 @@ body.render { opacity: 1; }
   text-transform: lowercase;
 }
 .nav .nav_item:first-child {
-  --menu-item-color:#c200fb;
+  --menu-item-color:#9437ff;
 }
 .nav .nav_item:nth-child(2) {
-  --menu-item-color:#fe4e00;
+  --menu-item-color:#ff84fd;
 }
 .nav .nav_item:nth-child(3) {
-  --menu-item-color:#ff4242;
+  --menu-item-color:#6cccff;
 }
 
 /* Content */
@@ -183,6 +183,18 @@ body.render { opacity: 1; }
   width: 100%;
   height: 120px;
   display: block;
+}
+.archivePlayer:nth-child(4n+1){
+  background-color: #9437ff;
+}
+.archivePlayer:nth-child(4n+2){
+  background-color: #ff84fd;
+}
+.archivePlayer:nth-child(4n+3){
+  background-color: #6cccff;
+}
+.archivePlayer:nth-child(4n+4){
+  background-color: #3dd2c1;
 }
 .archivePlayerControls {
   width: 200px;
