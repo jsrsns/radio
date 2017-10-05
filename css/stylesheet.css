@@ -246,6 +246,7 @@ iframe {
 }
 .social li:before { }
 @media screen and (max-width: 768px) {
+  .social { padding: 40px 0 0; }
   .social li {
     display: block;
     text-align: center;
