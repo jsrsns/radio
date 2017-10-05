@@ -115,7 +115,7 @@ body.render { opacity: 1; }
 }
 @media screen and (max-width: 480px) {
   .header {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
   }
 }
 .nav {
@@ -158,6 +158,10 @@ body.render { opacity: 1; }
   .nav {
     padding: 0;
     text-align: center;
+  }
+  .nav .nav_item-label {
+    display: block;
+    padding: 0 0 0 0;
   }
 }
 
@@ -205,6 +209,9 @@ body.render { opacity: 1; }
 .volume { position: relative; }
 .volume-btn { cursor: pointer; }
 .offline { content: 'OFFLINE'; }
+
+@media screen and (max-width: 768px) {
+  #streamPlayer { padding: 100px 20px 100px; }
 
 /* Archive Player */
 .archivePlayer {
