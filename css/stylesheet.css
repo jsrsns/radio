@@ -35,6 +35,11 @@ a {
   text-decoration: none;
   color: #3772ff;
   outline: none;
+  transition: color .15s;
+  -webkit-transition: color .15s;
+  -moz-transition: color .15s;
+  -ms-transition: color .15s;
+  -o-transition: color .15s;
 }
 a:hover,
 a:focus {
@@ -46,6 +51,10 @@ a:focus {
 body {
   opacity: 0;
   transition: opacity 1.5s;
+  -webkit-transition: opacity .15s;
+  -moz-transition: opacity .15s;
+  -ms-transition: opacity .15s;
+  -o-transition: opacity .15s;
 }
 body.render { opacity: 1; }
 
