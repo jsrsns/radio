@@ -159,6 +159,7 @@ body.render { opacity: 1; }
     padding: 0;
     text-align: center;
   }
+  .nav_item { display: block; }
   .nav .nav_item-label {
     display: block;
     padding: 0 0 0 0;
