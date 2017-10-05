@@ -51,10 +51,10 @@ a:focus {
 body {
   opacity: 0;
   transition: opacity 1.5s;
-  -webkit-transition: opacity .15s;
-  -moz-transition: opacity .15s;
-  -ms-transition: opacity .15s;
-  -o-transition: opacity .15s;
+  -webkit-transition: opacity 1.5s;
+  -moz-transition: opacity 1.5s;
+  -ms-transition: opacity 1.5s;
+  -o-transition: opacity 1.5s;
 }
 body.render { opacity: 1; }
 
