@@ -13,8 +13,8 @@ setTimeout(() => document.body.classList.add('render'), 60);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
       if (target.length) {
         $('html, body').animate({
-          scrollTop: (target.offset().top - 54)
-        }, 1000, "easeInOutExpo");
+          scrollTop: (target.offset().top - 14)
+        }, 10, "easeInOutExpo");
         return false;
       }
     }
