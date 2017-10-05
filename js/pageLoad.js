@@ -14,7 +14,7 @@ setTimeout(() => document.body.classList.add('render'), 60);
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top - 14)
-        }, 10, "easeInOutExpo");
+        }, 500, "easeInOutExpo");
         return false;
       }
     }
