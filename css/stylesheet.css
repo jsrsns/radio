@@ -173,7 +173,7 @@ body.render { opacity: 1; }
 
 #streamPlayer {
   display: block;
-  padding: 254px 0 100px;
+  padding: 200px 0 100px;
   background-color: #5cb435;
 }
 #streamStateLabel {
