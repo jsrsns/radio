@@ -4,7 +4,7 @@ setTimeout(() => document.body.classList.add('render'), 60);
 };
 
 /* Scrolling */
-(function($) {
+(function ($) {
   "use strict";
 
   $('a.js-scroll-trigger*=[href*=="#"]:not([href="#"])').click(function() {
@@ -19,4 +19,4 @@ setTimeout(() => document.body.classList.add('render'), 60);
       }
     }
   });
-})
+})(jQuery)
