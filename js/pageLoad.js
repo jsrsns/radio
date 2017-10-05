@@ -19,10 +19,5 @@ setTimeout(() => document.body.classList.add('render'), 60);
       }
     }
   });
-  
-  $('body').scrollspy({
-    target: '.nav',
-    offset: 14
-  });
 })(jQuery)
 
