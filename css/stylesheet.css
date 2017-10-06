@@ -150,7 +150,7 @@ body.render { opacity: 1; }
 }
 .nav .nav_item:first-child { --menu-item-color:#3268e8 /*9437ff*/; }
 .nav .nav_item:nth-child(2) { --menu-item-color:#2953ba /*ff84fd*/; }
-.nav .nav_item:nth-child(3) { --menu-item-color:#2e5ed1 /*6cccff*/; }
+.nav .nav_item:nth-child(3) { --menu-item-color:#547bd9 /*6cccff*/; }
 @media screen and (max-width: 768px) {
   .nav {
     padding: 0;
