@@ -230,6 +230,7 @@ body.render { opacity: 1; }
   justify-content: space-between;
 }
 .play-btn { cursor: pointer; }
+.dl-btn { cursor: pointer; }
 iframe {
   opacity: 0;
   animation: fade .8s ease-in forwards;
