@@ -44,7 +44,7 @@ function togglePlay() {
   }
 }
 
-function makePlay() {
+/*function makePlay() {
   playPauseBtn.style.display = 'block';
   loading.style.display = 'none';
-}
+}*/
