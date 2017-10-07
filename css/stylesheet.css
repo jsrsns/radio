@@ -225,7 +225,7 @@ body.render { opacity: 1; }
 .archivePlayerControls {
   margin: auto;
   display: flex;
-  width: 300px;
+  width: 250px;
   padding: 20px 20px;
   justify-content: space-between;
 }
