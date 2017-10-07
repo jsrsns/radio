@@ -75,7 +75,7 @@ body.render { opacity: 1; }
 .table {
   display: table;
   width: 100%;
-  table-layout: fixed;  
+  table-layout: fixed;
 }
 .table-cell {
   display: table-cell;
@@ -215,7 +215,7 @@ body.render { opacity: 1; }
 }
 
 /* Archive Player */
-  
+
 .archivePlayer {
   display: block;
   width: 100%;
@@ -225,7 +225,7 @@ body.render { opacity: 1; }
 .archivePlayerControls {
   margin: auto;
   display: flex;
-  width: 200px;
+  width: 300px;
   padding: 20px 20px;
   justify-content: space-between;
 }
@@ -240,7 +240,7 @@ iframe {
 }
 
 /* About */
-  
+
 #about { }
 .info { }
 .social {
@@ -261,7 +261,7 @@ iframe {
   }
 }
 /* Footer */
-  
+
 .footer {
   bottom: 0;
   width: 100%;
