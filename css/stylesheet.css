@@ -63,14 +63,19 @@ body.render { opacity: 1; }
 
 /* Design elements */
 
-.container { }
-.wrapper {
+.page-wrapper { }
+.container {
   margin: 0 auto;
   max-width: 1080px;
   padding: 0 30px;
 }
+.frame {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 150px 50px 0 50px;
+}
 @media screen and (max-width: 768px) {
-  .wrapper { padding: 0; }
+  .container { padding: 0; }
 }
 .table {
   display: table;
@@ -95,11 +100,6 @@ body.render { opacity: 1; }
 .center { text-align: center; }
 .left { text-align: left; }
 .right { text-align: right; }
-.frame {
-  margin: 0 auto;
-  max-width: 800px;
-  padding: 150px 50px 0 50px;
-}
 
 /* Header, title and navbar */
 
