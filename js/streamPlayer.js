@@ -15,7 +15,7 @@ var stream = audioPlayer.querySelector('#stream');
 stream.addEventListener('error',setOffline);
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
-/*player.addEventListener('canplay',makePlay);*/
+player.addEventListener('canplay',makePlay);
 
 function setOffline() {
   streamControls.style.display = 'none';
@@ -44,7 +44,7 @@ function togglePlay() {
   }
 }
 
-/*function makePlay() {
+function makePlay() {
   playPauseBtn.style.display = 'block';
   loading.style.display = 'none';
-}*/
+}
