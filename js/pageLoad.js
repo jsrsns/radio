@@ -1,3 +1,5 @@
+/* 2017 Joes Roosens */
+
 /* Page load in */
 {
 setTimeout(() => document.body.classList.add('render'), 60);
@@ -20,4 +22,3 @@ setTimeout(() => document.body.classList.add('render'), 60);
     }
   });
 })(jQuery)
-

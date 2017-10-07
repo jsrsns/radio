@@ -1,3 +1,5 @@
+/* 2017 Joes Roosens */
+
 var audioPlayer = document.querySelector('#streamPlayer');
 var streamLabel = audioPlayer.querySelector('#streamStateLabel > span');
 var streamStatus = audioPlayer.querySelector('#streamStateLabel > p');

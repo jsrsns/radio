@@ -1,3 +1,5 @@
+/* 2017 Joes Roosens */
+
 var archivePlayer = document.querySelectorAll('.archivePlayer');
 
 for (var i = 0; i < archivePlayer.length; i++) {
