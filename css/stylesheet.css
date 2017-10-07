@@ -191,11 +191,10 @@ body.render { opacity: 1; }
   justify-content: space-between;
 }
 .play-pause-btn {
-  display: block;
+  display: none;
   cursor: pointer;
 }
 .spinner {
-  display: none;
   width: 83px;
   height: 83px;
   background-image: url(/radio/img/spinner.svg);
