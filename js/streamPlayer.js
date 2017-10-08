@@ -10,18 +10,26 @@ var loading = audioPlayer.querySelector('.loading');
 var player = audioPlayer.querySelector('audio');
 var volumeBtn = audioPlayer.querySelector('.volume-btn');
 var speaker = audioPlayer.querySelector('#speaker');
-/*var stream = audioPlayer.querySelector('#stream');*/
+var stream = audioPlayer.querySelector('#stream');
 
 /*stream.addEventListener('error',setOffline);*/
+stream.addEventListener('load', setOnline);
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
 player.addEventListener('canplay',makePlay);
 
-function setOffline() {
+/*function setOffline() {
   streamControls.style.display = 'none';
   audioPlayer.style.backgroundColor = '#fb0e1f';
   streamLabel.textContent = "OFFLINE";
   streamStatus.textContent = "No stream right now. Check back later.";
+}*/
+
+function setOnline() {
+  streamControls.style.display = 'flex';
+  audioPlayer.style.backgroundColor = '#5cb435';
+  streamLabel.textContent = "ONLINE";
+  streamStatus.textContent = "Now streaming!";
 }
 
 function toggleVolume() {
