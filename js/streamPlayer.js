@@ -26,6 +26,7 @@ player.addEventListener('canplay',makePlay);
 }*/
 
 function setOnline() {
+  console.log('online');
   streamControls.style.display = 'flex';
   audioPlayer.style.backgroundColor = '#5cb435';
   streamLabel.textContent = "ONLINE";
