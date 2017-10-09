@@ -148,9 +148,9 @@ body.render { opacity: 1; }
   text-transform: lowercase;
   white-space: pre;
 }
-.nav .nav_item:first-child { --menu-item-color:#9437ff; }
-.nav .nav_item:nth-child(2) { --menu-item-color:#ff84fd; }
-.nav .nav_item:nth-child(3) { --menu-item-color:#6cccff; }
+.nav .nav_item:first-child { --menu-item-color:#133c55; }
+.nav .nav_item:nth-child(2) { --menu-item-color:#386fa4; }
+.nav .nav_item:nth-child(3) { --menu-item-color:#89bbfe; }
 @media screen and (max-width: 768px) {
   .nav {
     padding: 0;
