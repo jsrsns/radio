@@ -178,7 +178,6 @@ body.render { opacity: 1; }
   display: block;
   padding: 200px 0 100px;
   background-color: #5cb435;
-  background-color: #fb0e1f;
 }
 #streamStateLabel {
   font-size: 2.5em;
@@ -189,7 +188,6 @@ body.render { opacity: 1; }
 #streamPlayerControls {
   margin: auto;
   display: flex;
-  display: none;
   width: 200px;
   padding-left: 24px;
   padding-right: 24px;
