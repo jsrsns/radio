@@ -13,7 +13,7 @@ var speaker = audioPlayer.querySelector('#speaker');
 var stream = audioPlayer.querySelector('#stream');
 
 stream.addEventListener('error',setOffline);
-stream.addEventListener('loadeddata', setOnline);
+stream.addEventListener('load', setOnline);
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
 player.addEventListener('canplay',makePlay);
