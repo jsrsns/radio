@@ -194,9 +194,10 @@ body.render { opacity: 1; }
   justify-content: space-between;
 }
 .play-pause-btn {
-  display: none;
+  display: block;
   cursor: pointer;
 }
+.loading { display: none; }
 .spinner {
   width: 83px;
   height: 83px;
