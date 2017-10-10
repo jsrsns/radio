@@ -16,8 +16,7 @@ stream.addEventListener('error',setOffline);
 /*stream.addEventListener('loadeddata', setOnline);*/
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
-player.addEventListener('canplay',makePlay);
-player.addEventListener('touchstart', makePlay);
+/*player.addEventListener('canplay',makePlay);*/
 
 function setOffline() {
   console.log('Stream offline');
@@ -55,7 +54,7 @@ function togglePlay() {
   }
 }
 
-function makePlay() {
+/*function makePlay() {
   playPauseBtn.style.display = 'block';
   loading.style.display = 'none';
-}
+}*/
