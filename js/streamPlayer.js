@@ -13,7 +13,7 @@ var speaker = audioPlayer.querySelector('#speaker');
 var stream = audioPlayer.querySelector('#stream');
 
 stream.addEventListener('error',setOffline);
-stream.addEventListener('loadeddata', setOnline);
+/*stream.addEventListener('loadeddata', setOnline);*/
 playPauseBtn.addEventListener('click',togglePlay);
 volumeBtn.addEventListener('click',toggleVolume);
 player.addEventListener('canplay',makePlay);
@@ -26,13 +26,13 @@ function setOffline() {
   streamStatus.textContent = "No stream right now. Check back later.";
 }
 
-function setOnline() {
+/*function setOnline() {
   console.log('Now streaming!');
   streamControls.style.display = 'flex';
   audioPlayer.style.backgroundColor = '#5cb435';
   streamLabel.textContent = "ONLINE";
   streamStatus.textContent = "Now streaming!";
-}
+}*/
 
 function toggleVolume() {
   if (player.muted === false) {
