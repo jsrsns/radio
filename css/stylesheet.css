@@ -177,7 +177,7 @@ body.render { opacity: 1; }
 #streamPlayer {
   display: block;
   padding: 200px 0 100px;
-  /*background-color: #5cb435;*/
+  background-color: #5cb435;
   background-color: #fb0e1f;
 }
 #streamStateLabel {
@@ -188,7 +188,7 @@ body.render { opacity: 1; }
 }
 #streamPlayerControls {
   margin: auto;
-  /*display: flex;*/
+  display: flex;
   display: none;
   width: 200px;
   padding-left: 24px;
