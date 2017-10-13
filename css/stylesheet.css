@@ -224,7 +224,7 @@ body.render { opacity: 1; }
   display: block;
   width: 100%;
   height: 120px;
-  background-image: url(radio/img/Thumbnail_1v2.jpg);
+  background-image: url(/radio/img/Thumbnail_1v2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #3772ff;
