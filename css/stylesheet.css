@@ -227,6 +227,7 @@ body.render { opacity: 1; }
   background-image: url(/radio/img/Thumbnail_1v2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   background-color: #3772ff;
 }
 .archivePlayerControls {
