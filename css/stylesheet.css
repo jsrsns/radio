@@ -124,6 +124,14 @@ body.render { opacity: 1; }
 @media screen and (max-width: 480px) {
   .header { margin-bottom: 20px; }
 }
+.logo { display: none; }
+@media screen and (max-width: 768px) {
+  .logo {
+    display: block;
+    margin: 30px auto 0;
+    max-width: 400px;
+  }
+}
 .nav {
   display: block;
   text-align: right;
