@@ -254,10 +254,10 @@ body.render { opacity: 1; }
 iframe {
   opacity: 0;
   animation: fade .8s ease-in forwards;
-  -webkit-animation: ;
-  -mos-animation: ;
-  -ms-animation: ;
-  -o-animation: ;
+  -webkit-animation: fade .8s ease-in forwards;
+  -mos-animation: fade .8s ease-in forwards;
+  -ms-animation: fade .8s ease-in forwards;
+  -o-animation: fade .8s ease-in forwards;
 }
 @keyframes fade {
   from { opacity: 0; }
